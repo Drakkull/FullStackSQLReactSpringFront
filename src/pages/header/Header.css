@@ -1,0 +1,31 @@
+/*Style for Navbar background and brand */
+.navbar{
+
+    background-color: gray;
+
+
+}
+
+.navbar .navbar-brand{
+
+    color: aliceblue;
+}
+
+/* Style for navigation links and stuff */
+
+.navbar .nav-link{
+
+    color: white !important; /* color text will be whit */
+    text-decoration: nome !important; /* No underline bullshit */
+    margin-right: 20px; /* the magin between links */
+
+}
+
+/* Adding media stuff and query for small screens as phones */
+
+@media (max-width: 576px){
+    .navbar .nav-link{
+        margin-right: 0; /* Remove borders for phones and stuff */
+    }
+}
+
